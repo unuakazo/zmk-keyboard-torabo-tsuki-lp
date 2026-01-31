@@ -16,7 +16,7 @@
         };
         ng_off: ng_off {
             compatible = "zmk,behavior-macro";
-            #binding-cell = <0>;
+            #binding-cells = <0>;
             bindings
                 = <&macro_tap &kp LANGUAGE_2 &kp INTERNATIONAL_5 &to 0>
                 ; 
@@ -38,6 +38,7 @@
             bindings = <&ng_on>;
             layers = <0>;
         };
+
         combo_ng_off {
             timeout-ms = <300>;
             key-positions = <13 14>;
