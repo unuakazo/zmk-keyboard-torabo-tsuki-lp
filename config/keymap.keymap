@@ -52,11 +52,11 @@
 
         default_layer {
             bindings = <
-&none  &none      &none     &none     &none           &none                                  &none            &none      &none      &none      &none      &none
-&none  &kp K      &kp D     &kp N     &kp F           &kp Q                                  &kp J            &kp BSPC   &kp R      &kp U      &kp P      &none
-&none  &kp W      &kp I     &kp S     &kp A           &kp G            &none      &none      &kp Y            &kp E      &kp T      &kp H      &kp B      &none
-&none  &kp Z      &kp X     &kp V     &kp C           &kp L            &kp DEL    &kp BSPC   &kp M            &kp O      &kp COMMA  &kp DOT    &kp FSLH   &none
-&none  &kp LCTRL  &kp LGUI  &kp LALT  &mt LCTRL BSPC  &mt LSHFT SPACE  &lt 2 TAB  &lt 3 ESC  &mt RSHFT ENTER  &none      &none      &mkp LCLK  &mkp RCLK  &none
+&none  &none      &none     &none     &none           &none                                  &none            &none  &none      &none      &none      &none
+&none  &kp Q      &kp W     &kp E     &kp R           &kp T                                  &kp Y            &kp U  &kp I      &kp O      &kp P      &none
+&none  &kp A      &kp S     &kp D     &kp F           &kp G            &none      &none      &kp H            &kp J  &kp K      &kp L      &kp SEMI   &none
+&none  &kp Z      &kp X     &kp C     &kp V           &kp B            &kp DEL    &kp BSPC   &kp N            &kp M  &kp COMMA  &kp DOT    &kp FSLH   &none
+&none  &kp LCTRL  &kp LGUI  &kp LALT  &mt LCTRL BSPC  &mt LSHFT SPACE  &lt 2 TAB  &lt 3 ESC  &mt RSHFT ENTER  &none  &none      &mkp LCLK  &mkp RCLK  &none
             >;
         };
 
