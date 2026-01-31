@@ -51,21 +51,21 @@
 
         default_layer {
             bindings = <
-&none  &none      &none     &none     &none          &none                                                       &none  &none     &none      &none      &none      &none
-&none  &kp K      &kp D     &kp N     &kp F          &kp Q                                                       &kp J  &kp BSPC  &kp R      &kp U      &kp P      &none
-&none  &kp W      &kp I     &kp S     &kp A          &kp G            &none                     &none            &kp Y  &kp E     &kp T      &kp H      &kp B      &none
-&none  &kp Z      &kp X     &kp V     &kp C          &kp L            &mt LCTRL TAB             &mt ESC RCTRL    &kp M  &kp O     &kp COMMA  &kp DOT    &kp FSLH   &none
-&none  &kp LCTRL  &kp LGUI  &kp LALT  &mt LCTRL TAB  &mt LSHFT SPACE  &mo LOWER      &mo RAISE  &mt RSHFT ENTER  &none  &none     &kp RALT   &kp RCTRL  &none
+&none  &none      &none     &none     &none          &none                                          &none            &none      &none      &none     &none      &none
+&none  &kp K      &kp D     &kp N     &kp F          &kp Q                                          &kp J            &kp BSPC   &kp R      &kp U     &kp P      &none
+&none  &kp W      &kp I     &kp S     &kp A          &kp G            &none          &none          &kp Y            &kp E      &kp T      &kp H     &kp B      &none
+&none  &kp Z      &kp X     &kp V     &kp C          &kp L            &mt LCTRL TAB  &mt ESC RCTRL  &kp M            &kp O      &kp COMMA  &kp DOT   &kp FSLH   &none
+&none  &kp LCTRL  &kp LGUI  &kp LALT  &mt LCTRL TAB  &mt LSHFT SPACE  &mo 2          &mo 3          &mt RSHFT ENTER  &none      &none      &kp RALT  &kp RCTRL  &none
             >;
         };
 
         naginata_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                           &trans     &trans  &trans     &trans   &trans    &trans
-&trans  &ng Q   &ng W   &ng E   &ng R   &ng T                            &ng Y      &ng U   &ng I      &ng O    &ng P     &trans
-&trans  &ng A   &ng S   &ng D   &ng F   &ng G      &trans     &trans     &ng H      &ng J   &ng K      &ng L    &ng SEMI  &trans
-&trans  &ng Z   &ng X   &ng C   &ng V   &ng B      &trans     &trans     &ng N      &ng M   &ng COMMA  &ng DOT  &kp FSLH  &trans
-&trans  &trans  &trans  &trans  &trans  &ng SPACE  &mo LOWER  &mo RAISE  &ng ENTER  &trans  &trans     &trans   &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &trans     &trans  &trans     &trans   &trans    &trans
+&trans  &ng Q   &ng W   &ng E   &ng R   &ng T                      &ng Y      &ng U   &ng I      &ng O    &ng P     &trans
+&trans  &ng A   &ng S   &ng D   &ng F   &ng G      &trans  &trans  &ng H      &ng J   &ng K      &ng L    &ng SEMI  &trans
+&trans  &ng Z   &ng X   &ng C   &ng V   &ng B      &trans  &trans  &ng N      &ng M   &ng COMMA  &ng DOT  &kp FSLH  &trans
+&trans  &trans  &trans  &trans  &trans  &ng SPACE  &trans  &trans  &ng ENTER  &trans  &trans     &trans   &trans    &trans
             >;
         };
 
