@@ -65,7 +65,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                     &trans     &trans  &trans     &trans   &trans    &trans
 &trans  &ng Q   &ng W   &ng E   &ng R   &ng T                      &ng Y      &ng U   &ng I      &ng O    &ng P     &trans
 &trans  &ng A   &ng S   &ng D   &ng F   &ng G      &trans  &trans  &ng H      &ng J   &ng K      &ng L    &ng SEMI  &trans
-&trans  &ng Z   &ng X   &ng C   &ng V   &ng B      &trans  &trans  &ng N      &ng M   &ng COMMA  &ng DOT  &kp FSLH  &trans
+&trans  &ng Z   &ng X   &ng C   &ng V   &ng B      &trans  &trans  &ng N      &ng M   &ng COMMA  &ng DOT  &ng FSLH  &trans
 &trans  &trans  &trans  &trans  &trans  &ng SPACE  &trans  &trans  &ng ENTER  &trans  &trans     &trans   &trans    &trans
             >;
         };
